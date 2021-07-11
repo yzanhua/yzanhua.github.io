@@ -12,10 +12,12 @@ Full CV/Resume is [here](https://yzanhua.github.io/resume/).
 
 Education
 ======
+* Ph.D. in CS, Northwestern University, 2026 (expected)
+* MCS.  Rice University, 2020
 * B.S.  in CSE, The University of Michigan, 2019
 * B.S.  in ECE, Shanghai Jiao Tong University, 2019
-* MCS.  Rice University, 2020
-* Ph.D. in CS, Northwestern University, 2026 (expected)
+
+
 
 <!-- Work experience
 ======
