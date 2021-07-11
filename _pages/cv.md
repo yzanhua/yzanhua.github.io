@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <!-- {% include base_path %} -->
-Full CV/Resume is [here](https://yzanhua.github.io/resume/)
+Full CV/Resume is [here](https://yzanhua.github.io/resume/).
 
 Education
 ======
