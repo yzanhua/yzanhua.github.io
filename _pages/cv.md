@@ -7,15 +7,17 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+<!-- {% include base_path %} -->
+Full CV/Resume is [here](https://github.com/yzanhua/yzanhua.github.io/blob/master/resume/Resume_Zanhua_Huang.pdf)
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S.  in CSE, The University of Michigan, 2019
+* B.S.  in ECE, Shanghai Jiao Tong University, 2019
+* MCS.  Rice University, 2020
+* Ph.D. in CS, Northwestern University, 2026 (expected)
 
-Work experience
+<!-- Work experience
 ======
 * Summer 2015: Research Assistant
   * Github University
@@ -25,9 +27,9 @@ Work experience
 * Fall 2015: Research Assistant
   * Github University
   * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+  * Supervisor: Professor Hub -->
   
-Skills
+<!-- Skills
 ======
 * Skill 1
 * Skill 2
@@ -46,7 +48,7 @@ Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Teaching
 ======
@@ -54,6 +56,7 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+<!-- Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
+
