@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <!-- {% include base_path %} -->
-Full CV/Resume is [here](https://yzanhua.github.io/files/Resume_Zanhua_Huang.pdf).
+Available [here](https://yzanhua.github.io/files/Resume_Zanhua_Huang.pdf).
 
 
 <!-- Work experience
