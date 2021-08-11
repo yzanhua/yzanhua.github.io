@@ -10,14 +10,6 @@ redirect_from:
 <!-- {% include base_path %} -->
 Full CV/Resume is [here](https://yzanhua.github.io/files/Resume_Zanhua_Huang.pdf).
 
-Education
-======
-* Ph.D. in CS, Northwestern University, 2026 (expected)
-* MCS.  Rice University, 2020
-* B.S.  in CSE, The University of Michigan, 2019
-* B.S.  in ECE, Shanghai Jiao Tong University, 2019
-
-
 
 <!-- Work experience
 ======
@@ -52,11 +44,11 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul> -->
   
-Teaching
+<!-- Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 <!-- Service and leadership
 ======
