@@ -1,12 +1,12 @@
 ---
 layout: archive
-permalink: /posts/folders/py_requests/
+permalink: /posts/folder/py_requests/
 title: "Py Requests"
 author_profile: true
 ---
 
 {% include base_path %}
-{% include group-by-array collection=site.posts field="folders" %}
+{% include group-by-array collection=site.posts field="folder" %}
 
 {% for folder in group_names %}
     {% if folder == "py_requests" %}
@@ -18,5 +18,3 @@ author_profile: true
         {% break %}
     {% endif %}
 {% endfor %}
-
-{%assign temp = site.folders%}

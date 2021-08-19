@@ -1,12 +1,12 @@
 ---
 layout: archive
-permalink: /posts/folders/test/
+permalink: /posts/folder/test/
 title: "Test"
 author_profile: true
 ---
 
 {% include base_path %}
-{% include group-by-array collection=site.posts field="folders" %}
+{% include group-by-array collection=site.posts field="folder" %}
 
 {% for folder in group_names %}
     {% if folder == "test" %}
