@@ -1,0 +1,19 @@
+---
+layout: archive
+permalink: /folders/folder1/
+title: "folder1"
+author_profile: true
+---
+
+{% include base_path %}
+{% include group-by-array collection=site.posts field="folders" %}
+
+{% for folder in group_names %}
+    {% if folder == "folder1" %}
+        {% assign posts = group_items[forloop.index0] %}
+        <h2 id="{{ category | slugify }}" class="archive__subtitle">{{ category }}</h2>
+        {% for post in posts %}
+            {% include archive-single.html %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}

@@ -22,7 +22,3 @@ Education
 * MCS.  Rice University, 2021
 * B.S.  in CSE, The University of Michigan, 2019
 * B.S.  in ECE, Shanghai Jiao Tong University, 2019
-
-<br />
-Last Updated: Aug/11/2021
-
