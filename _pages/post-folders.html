@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /posts/
-title: "Posts by Folder"
+title: "Posts"
 author_profile: true
 ---
 
@@ -10,5 +10,5 @@ author_profile: true
 
 {% for folder in group_names %}
   {% assign posts = group_items[forloop.index0] %}
-  <h2 id="{{ folder | slugify }}" class="archive__subtitle">{{ folder }}</h2>
+  <a href="{{ base_path }}folders/{{ folder }}" rel="permalink">{{ base_path }}folders/{{ folder }}</a>
 {% endfor %}
