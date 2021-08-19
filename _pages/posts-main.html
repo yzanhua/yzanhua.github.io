@@ -10,6 +10,8 @@ author_profile: true
 
 {% for folder in group_names %}
   {% assign posts = group_items[forloop.index0] %}
+  {% if folder != "" %}
   <a href="{{ base_path }}/folders/{{ folder }}" rel="permalink">{{ folder }}</a>
   <br />
+  {% endif %}
 {% endfor %}
