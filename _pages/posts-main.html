@@ -6,11 +6,11 @@ author_profile: true
 ---
 
 {% include base_path %}
-{% include group-by-array collection=site.posts field="folder" %}
+{% include group-by-array collection=site.posts field="categories" %}
 
-{% for folder in group_names %}
-  {% if folder != "" %}
-  <a href="{{ base_path }}/posts/folder/{{ folder }}/" rel="permalink">{{ folder }}</a>
+{% for category in group_names %}
+  {% if category != "" %}
+  <a href="{{ base_path }}/posts/category/{{ category }}/" rel="permalink">{{ category }}</a>
   <br />
   {% endif %}
 {% endfor %}

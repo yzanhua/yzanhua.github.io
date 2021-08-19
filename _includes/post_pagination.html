@@ -1,14 +1,14 @@
 {% include base_path %}
 
-{% if page.previous_in_folder or page.next_in_folder %}
+{% if page.previous_in_category != nil or page.next_in_category != nil %}
   <nav class="pagination">
-    {% if page.previous_in_folder %}
-      <a href="{{ base_path }}{{ page.previous_in_folder.url }}" class="pagination--pager" title="{{ page.previous_in_folder.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
+    {% if page.previous_in_category != nil %}
+      <a href="{{ base_path }}{{ page.previous_in_category.url }}" class="pagination--pager" title="{{ page.previous_in_category.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
     {% else %}
       <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
     {% endif %}
-    {% if page.next_in_folder %}
-      <a href="{{ base_path }}{{ page.next_in_folder.url }}" class="pagination--pager" title="{{ page.next_in_folder.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
+    {% if page.next_in_category != nil %}
+      <a href="{{ base_path }}{{ page.next_in_category.url }}" class="pagination--pager" title="{{ page.next_in_category.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
     {% else %}
       <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
     {% endif %}
