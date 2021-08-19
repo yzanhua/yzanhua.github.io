@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: /folders/folder1/
-title: "folder1"
+permalink: /folders/Py_Requests/
+title: "Py Requests"
 author_profile: true
 ---
 
@@ -9,7 +9,7 @@ author_profile: true
 {% include group-by-array collection=site.posts field="folders" %}
 
 {% for folder in group_names %}
-    {% if folder == "folder1" %}
+    {% if folder == "Py_Requests" %}
         {% assign posts = group_items[forloop.index0] %}
         <h2 id="{{ category | slugify }}" class="archive__subtitle">{{ category }}</h2>
         {% for post in posts %}

@@ -9,7 +9,6 @@ author_profile: true
 {% include group-by-array collection=site.posts field="folders" %}
 
 {% for folder in group_names %}
-  {% assign posts = group_items[forloop.index0] %}
   {% if folder != "" %}
   <a href="{{ base_path }}/folders/{{ folder }}/" rel="permalink">{{ folder }}</a>
   <br />
