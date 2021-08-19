@@ -10,5 +10,6 @@ author_profile: true
 
 {% for folder in group_names %}
   {% assign posts = group_items[forloop.index0] %}
-  <a href="{{ base_path }}folders/{{ folder }}" rel="permalink">{{ base_path }}folders/{{ folder }}</a>
+  <a href="{{ base_path }}/folders/{{ folder }}" rel="permalink">{{ base_path }}/folders/{{ folder }}</a>
+  <br />
 {% endfor %}
