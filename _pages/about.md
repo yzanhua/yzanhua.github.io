@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am an incoming Ph.D. student in [the Department of Computer Science](https://www.mccormick.northwestern.edu/computer-science/) at [Northwestern University](https://www.northwestern.edu/).
+I am a first-year Ph.D. student in [the Department of Computer Science](https://www.mccormick.northwestern.edu/computer-science/) at [Northwestern University](https://www.northwestern.edu/).
 
 I am advised by [Dr. Alok Choudhary](https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/choudhary-alok.html) and [Dr. Wei-keng Liao](https://www.mccormick.northwestern.edu/research-faculty/directory/affiliated/liao-wei-keng.html).
 
-My research interest is in distributed systems and HPC.
+My research interest is in distributed systems and HPC. Currently I am focusing on improving I/O performances for HDF5 and MPI.
 
 <br />
 
